@@ -268,9 +268,6 @@ GameObject:
   - component: {fileID: 225181241}
   - component: {fileID: 225181245}
   - component: {fileID: 225181244}
-  - component: {fileID: 225181246}
-  - component: {fileID: 225181247}
-  - component: {fileID: 225181248}
   m_Layer: 0
   m_Name: Rock 01
   m_TagString: Untagged
@@ -381,53 +378,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.005
+  m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &225181246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 225181239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fcb819f53ec8774fac7d05aadaa37b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &225181247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 225181239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e2581b3a1e40cc408fc7a51d8b66632, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  center: {fileID: 1923919032}
-  maxDistance: 5
---- !u!114 &225181248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 225181239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d1f9ae24e08045448108a444dbf1868, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1 &308979457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1685,9 +1644,6 @@ GameObject:
   - component: {fileID: 1518437386}
   - component: {fileID: 1518437390}
   - component: {fileID: 1518437389}
-  - component: {fileID: 1518437391}
-  - component: {fileID: 1518437392}
-  - component: {fileID: 1518437393}
   m_Layer: 0
   m_Name: Rock 03
   m_TagString: Untagged
@@ -1798,53 +1754,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.005
+  m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &1518437391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518437384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fcb819f53ec8774fac7d05aadaa37b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1518437392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518437384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e2581b3a1e40cc408fc7a51d8b66632, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  center: {fileID: 1923919032}
-  maxDistance: 5
---- !u!114 &1518437393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518437384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c2cf89ebc4933043849b6d34610c730, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1 &1529469287
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,9 +1776,6 @@ GameObject:
   - component: {fileID: 1529469289}
   - component: {fileID: 1529469293}
   - component: {fileID: 1529469292}
-  - component: {fileID: 1529469294}
-  - component: {fileID: 1529469295}
-  - component: {fileID: 1529469296}
   m_Layer: 0
   m_Name: Rock 02
   m_TagString: Untagged
@@ -1945,15 +1860,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 1
   m_LinearDrag: 10
-  m_AngularDrag: 0.005
+  m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!61 &1529469293
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1980,44 +1895,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1529469294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529469287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fcb819f53ec8774fac7d05aadaa37b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1529469295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529469287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e2581b3a1e40cc408fc7a51d8b66632, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  center: {fileID: 1923919032}
-  maxDistance: 5
---- !u!114 &1529469296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529469287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c2cf89ebc4933043849b6d34610c730, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1596368576
 GameObject:
   m_ObjectHideFlags: 0
