@@ -2,22 +2,26 @@ using UnityEngine;
 
 class Player : MonoBehaviour
 {
-    Rigidbody rb;
+    public float speed = 3.0f;
 
-    Vector3 velocity;
+    Rigidbody2D rb;
+
     void Update()
     {
-        rb = GetComponent<Rigidbody>();
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
-            transform.position += Vector3.right;
+            rb.AddForce(Vector3.right * speed);
         if (Input.GetKeyDown(KeyCode.LeftArrow))
-            transform.position += Vector3.left;
-
+            rb.AddForce(Vector3.left * speed);
         if (Input.GetKeyDown(KeyCode.UpArrow))
-            transform.position += Vector3.up;
+            rb.AddForce(Vector3.up * speed);
         if (Input.GetKeyDown(KeyCode.DownArrow))
-            transform.position += Vector3.down;
+            rb.AddForce(Vector3.down * speed);
 
+    }
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
     }
 }
